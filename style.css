@@ -1,0 +1,120 @@
+/* 
+Theme Name: wave
+Author: Jason Sunnyassy
+Student ID: w0451497
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,700&display=swap');
+
+
+/* header */
+
+
+header {
+    padding: 20px 0 0 12%;  
+    background: #00CED1;
+}
+
+.logo {
+    font-family: 'Knewave', cursive;
+    font-size: 50px;
+    color: white !important;
+}
+
+.navi {
+    font-size: 30px;
+}
+
+/* .headlink {
+    font-size: 460px;
+} */
+
+.navigation {
+    margin-top:0px !important;
+    width:100% !important;
+}
+
+/* footer */
+
+footer {
+    padding: 50px 0 20px 0;
+}
+
+.navlogo {
+    color: #00CED1 !important;
+    font-family: 'Knewave', cursive;
+    font-size: 50px;
+}
+
+.navfoot {
+    color: #00CED1 !important;
+}
+
+.navfoot:hover {
+    color: white !important;
+    background-color: #00CED1 !important;
+}
+
+/* 
+.navigation { 
+    background-color: orange;
+    width: 100%;
+} */
+
+
+/* front-page */
+
+.title-main {
+    font-size: 55px;
+    font-family: 'Newsreader', serif;
+    /* color: #00CED1 !important; */
+}
+
+.title-main:hover {
+    color: #00CED1 !important;
+}
+
+.title-sub {
+    font-family: 'Newsreader', serif;
+}
+
+.title-sub:hover {
+    color: #00CED1 !important;
+}
+
+
+/* pages */
+
+h2{
+    font-family: 'Newsreader', serif;
+    color: #00CED1 !important;
+}
+
+
+/* bootstrap override */
+
+.navitem {
+    color: white !important;
+}
+
+.navitem:hover {
+    color: #00CED1 !important;
+    background-color: white !important;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container-fluid {
+    width: 90% !important;
+}
+
+h1 {
+    font-family: 'Newsreader', serif;
+    color: #00CED1 !important;
+}
